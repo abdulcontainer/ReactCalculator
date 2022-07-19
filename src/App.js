@@ -3,11 +3,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      number: 0,
       mListCalc: [],
-      operations: [
-        { name: "Addition" }, { name: "Subtruction" }, { name: "Multiplication" }
-      ]
     };
   }
   addRow = () => {
